@@ -1,0 +1,35 @@
+﻿using CaseStudy.Application.Commands.CreateEmployee;
+using CaseStudy.Domain.Exceptions;
+using CaseStudy.Domain.Repositories;
+using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CaseStudy.Application.Commands.EditEmployee
+{
+    public class EditEmployeeCommandHandler(IEmployeeCommandRepository repository) : IRequestHandler<EditEmployeeCommand, Guid>
+    {
+
+        public async Task<Guid> Handle(EditEmployeeCommand request, CancellationToken cancellationToken)
+        {
+            var employee = await repository.GetEmployeeById(request.Id);
+
+            if (employee.Version != request.Version)
+                throw new ConflictException("Employee has been modified by another process.");
+
+            employee.Name = request.Name;
+            employee.Email = request.Email;
+            employee.HireDate = request.HireDate;
+            employee.Status = request.Status;
+            await repository.UpdateAsync(employee);
+
+            return employee.Id;
+        }
+
+        
+    }
+}
+}

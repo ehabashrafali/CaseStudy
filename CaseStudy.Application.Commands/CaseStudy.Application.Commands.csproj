@@ -7,11 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DeleteEmployee\" />
-    <Folder Include="EditEmployee\" />
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
+    <PackageReference Include="MediatR" Version="13.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CaseStudy.Domain\CaseStudy.Domain.csproj" />
     <ProjectReference Include="..\CaseStudy.SharedModels\CaseStudy.SharedModels.csproj" />
   </ItemGroup>
 

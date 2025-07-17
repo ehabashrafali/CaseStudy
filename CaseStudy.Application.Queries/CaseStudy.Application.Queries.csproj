@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CaseStudy.SharedModels\CaseStudy.SharedModels.csproj" />
+  </ItemGroup>
+
 </Project>
