@@ -1,0 +1,91 @@
+## Build results
+bin/
+obj/
+out/
+TestResults/
+[Ll]og/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+## Visual Studio files
+.vs/
+.vscode/
+*.code-workspace
+
+## Rider files
+.idea/
+
+## ASP.NET specific
+wwwroot/*.map
+wwwroot/dist/
+wwwroot/node_modules/
+
+## Package management
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.vsix
+
+## Entity Framework
+Migrations/
+
+## Publish results
+publish/
+AppPackages/
+*.appxupload
+
+## Logs
+*.log
+
+## Temporary files
+*.tmp
+*.bak
+*.swp
+*~$
+
+## Database files
+*.mdf
+*.ldf
+
+## Other
+_ReSharper*/
+*.DotSettings.user
+*.dbmdl
+*.sdf
+*.cache
+*.pidb
+
+## Azure Functions
+local.settings.json
+
+## Docker
+**/.dockerignore
+docker-compose.override.yml
+
+## Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+
+## JetBrains Rider
+.idea/
+
+## Environment
+.env
+.env.*
+
+## Certificates
+*.pfx
+*.p12
+
+## Other IDEs
+*.ncrunchproject
+*.ncrunchsolution
+*.cachefile
