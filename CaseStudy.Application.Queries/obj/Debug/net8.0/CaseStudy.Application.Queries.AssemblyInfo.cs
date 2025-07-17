@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CaseStudy.Application.Queries")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22087fccb771aa0619674df6c0c06de9ab7569f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aea2cfe5cd0a7fd3406cc6389ccf78f306a84656")]
 [assembly: System.Reflection.AssemblyProductAttribute("CaseStudy.Application.Queries")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CaseStudy.Application.Queries")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
