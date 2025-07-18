@@ -15,7 +15,7 @@ namespace CaseStudy.Infrastructure.DataBase.Employees.Repositories
         public async Task DeleteAsync(Guid employeeId)
         {
             var employee = await _context.Employees.FindAsync(employeeId);
-            if (employee != null)
+            if (employee is not null)
             {
                 _context.Employees.Remove(employee);
                 await _context.SaveChangesAsync();

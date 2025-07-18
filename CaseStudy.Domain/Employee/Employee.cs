@@ -12,7 +12,7 @@
         [ConcurrencyCheck]
         public Guid Version { get; set; } = Guid.NewGuid();
         public string Email { get; set; } = string.Empty;
-        public DateTime HireDate { get; set; }
+        public DateOnly HireDate { get; set; }
         public EmployeeStatus Status { get; set; }
         public Department Department { get; set; }
     }

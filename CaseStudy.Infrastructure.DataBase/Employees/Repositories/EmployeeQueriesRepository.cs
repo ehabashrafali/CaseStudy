@@ -2,11 +2,30 @@
 using CaseStudy.Application.Queries.Repositories;
 using CaseStudy.SharedModels;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace CaseStudy.Infrastructure.DataBase.Employees.Repositories
 {
     public class EmployeeQueriesRepository(CaseStudyDbContext _context) : IEmployeeQueriesRepository
     {
+        public async Task<List<EmployeeDto>> GetEmployeeByHiringDate(DateOnly fromHiringDate, DateOnly toHiringDate, CancellationToken cancellationToken)
+        {
+            var employees = await _context.Employees
+                           .Include(e => e.Department)
+                           .Where(e => e.HireDate >= fromHiringDate && e.HireDate <= toHiringDate)
+                           .ToListAsync(cancellationToken);
+
+            return [.. employees.Select(e => new EmployeeDto
+            {
+                Id = e.Id,
+                Name = e.Name,
+                Email = e.Email,
+                DepartmentId = e.Department.Id,
+                HireDate = e.HireDate,
+                Status = e.Status
+            })];
+        }
+
         public async Task<EmployeeDto> GetEmployeeById(Guid id)
         {
             var employee = await _context.Employees
@@ -24,7 +43,7 @@ namespace CaseStudy.Infrastructure.DataBase.Employees.Repositories
             };
         }
 
-        public async Task<List<EmployeeDto>> GetFilteredSortedEmployes(EmployeeFilter? employeeFilter, SortingDirection sortingDirection)
+        public async Task<List<EmployeeDto>> GetFilteredSortedEmployes(EmployeeFilter? employeeFilter, SortingDirection? sortingDirection)
         {
             var query = _context.Employees
                             .Include(e => e.Department)
@@ -48,7 +67,6 @@ namespace CaseStudy.Infrastructure.DataBase.Employees.Repositories
                 }
             }
 
-            // Sorting by Name (example) - can be customized
             query = sortingDirection == SortingDirection.Ascending
                 ? query.OrderBy(e => e.Name)
                 : query.OrderByDescending(e => e.Name);

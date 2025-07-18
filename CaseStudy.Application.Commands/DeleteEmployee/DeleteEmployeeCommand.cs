@@ -2,8 +2,8 @@
 
 namespace CaseStudy.Application.Commands.DeleteEmployee;
 
-public class DeleteEmployeeCommand : IRequest<Unit>
+public class DeleteEmployeeCommand(Guid employeeId, Guid version) : IRequest<Unit>
 {
-    public Guid EmployeeId { get; set; }
-    public Guid Version { get; set; }
+    public Guid EmployeeId { get; set; } = employeeId;
+    public Guid Version { get; set; } = version;
 }

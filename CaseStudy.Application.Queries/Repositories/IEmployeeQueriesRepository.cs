@@ -1,17 +1,13 @@
 ﻿using CaseStudy.Application.Commands.CreateEmployee;
 using CaseStudy.SharedModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CaseStudy.Application.Queries.Repositories
 {
     public interface IEmployeeQueriesRepository
     {
-        public Task<EmployeeDto> GetEmployeeById(Guid id);
-        public Task <List<EmployeeDto>> GetFilteredSortedEmployes(EmployeeFilter? employeeFilter, SortingDirection sortingDirection);
+        Task<List<EmployeeDto>> GetEmployeeByHiringDate(DateOnly fromHiringDate, DateOnly toHiringDate, CancellationToken cancellationToken);
+        Task<EmployeeDto> GetEmployeeById(Guid id);
+        Task<List<EmployeeDto>> GetFilteredSortedEmployes(EmployeeFilter? employeeFilter, SortingDirection? sortingDirection);
     }
 
     public class EmployeeDto
@@ -20,7 +16,7 @@ namespace CaseStudy.Application.Queries.Repositories
         public string Name { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public Guid DepartmentId { get; set; }
-        public DateTime HireDate { get; set; }
+        public DateOnly HireDate { get; set; }
         public EmployeeStatus Status { get; set; }
     }
 }

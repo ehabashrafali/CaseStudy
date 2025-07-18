@@ -11,7 +11,6 @@ public class CreateEmployeeCommandHandler(IEmployeeCommandRepository _repository
     {
         var employee = new Employee
         {
-            Id = Guid.NewGuid(),
             Name = request.Name,
             Email = request.Email,
             HireDate = request.HireDate,

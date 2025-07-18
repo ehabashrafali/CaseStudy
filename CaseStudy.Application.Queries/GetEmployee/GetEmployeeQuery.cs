@@ -1,8 +1,7 @@
-﻿namespace CaseStudy.Application.Queries.GetEmployee;
+﻿using CaseStudy.Application.Queries.Repositories;
+using MediatR;
 
-public class GetEmployeeQuery(Guid employeeId) : IRequest<EmployeeDto>
-{
-    public Guid EmployeeId { get; } = employeeId;
-}
-{
-}
+namespace CaseStudy.Application.Queries.GetEmployee;
+
+public record GetEmployeeQuery(Guid EmployeeId) : IRequest<EmployeeDto>;
+
