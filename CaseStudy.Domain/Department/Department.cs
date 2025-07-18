@@ -9,7 +9,7 @@ public class Department
 
     private Department() { }
 
-    public Department (string name, List<Employee.Employee> employees)
+    public Department (string name, List<Employee.Employee> employees = default)
     {
         Name = name;
         _employees = employees;

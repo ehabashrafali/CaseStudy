@@ -1,4 +1,5 @@
 using CaseStudy.Application.Commands.CreateEmployee;
+using CaseStudy.Application.Queries.GetDepartment;
 using CaseStudy.Application.Queries.Repositories;
 using CaseStudy.Domain.Repositories;
 using CaseStudy.Infrastructure.API.Controllers;
@@ -34,7 +35,9 @@ builder.Services.AddMediatR(cfg =>
 builder.Services
     .AddControllers()
     .AddApplicationPart(typeof(DepartmentController).Assembly)
-    .AddApplicationPart(typeof(EmployeeController).Assembly);
+    .AddApplicationPart(typeof(EmployeeController).Assembly)
+    .AddApplicationPart(typeof(GetDepartmentQuery).Assembly);
+
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>

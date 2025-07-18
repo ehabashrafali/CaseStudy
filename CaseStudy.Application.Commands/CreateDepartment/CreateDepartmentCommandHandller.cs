@@ -9,7 +9,7 @@ public class CreateDepartmentCommandHandller(IDepartmentCommandRepository _repos
 {
     public async Task<Guid> Handle(CreateDepartmentCommand request, CancellationToken cancellationToken)
     {
-        var department = new Department(request.Name, request.Employees);
+        var department = new Department(request.Name);
         await _repository.AddAsync(department);
         return department.Id;
     }
