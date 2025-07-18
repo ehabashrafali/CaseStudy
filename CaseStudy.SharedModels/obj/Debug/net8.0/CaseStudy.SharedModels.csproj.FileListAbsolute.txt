@@ -1,0 +1,12 @@
+D:\CaseStudy\CaseStudy.SharedModels\bin\Debug\net8.0\CaseStudy.SharedModels.deps.json
+D:\CaseStudy\CaseStudy.SharedModels\bin\Debug\net8.0\CaseStudy.SharedModels.dll
+D:\CaseStudy\CaseStudy.SharedModels\bin\Debug\net8.0\CaseStudy.SharedModels.pdb
+D:\CaseStudy\CaseStudy.SharedModels\obj\Debug\net8.0\CaseStudy.SharedModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\CaseStudy\CaseStudy.SharedModels\obj\Debug\net8.0\CaseStudy.SharedModels.AssemblyInfoInputs.cache
+D:\CaseStudy\CaseStudy.SharedModels\obj\Debug\net8.0\CaseStudy.SharedModels.AssemblyInfo.cs
+D:\CaseStudy\CaseStudy.SharedModels\obj\Debug\net8.0\CaseStudy.SharedModels.csproj.CoreCompileInputs.cache
+D:\CaseStudy\CaseStudy.SharedModels\obj\Debug\net8.0\CaseStudy.SharedModels.sourcelink.json
+D:\CaseStudy\CaseStudy.SharedModels\obj\Debug\net8.0\CaseStudy.SharedModels.dll
+D:\CaseStudy\CaseStudy.SharedModels\obj\Debug\net8.0\refint\CaseStudy.SharedModels.dll
+D:\CaseStudy\CaseStudy.SharedModels\obj\Debug\net8.0\CaseStudy.SharedModels.pdb
+D:\CaseStudy\CaseStudy.SharedModels\obj\Debug\net8.0\ref\CaseStudy.SharedModels.dll

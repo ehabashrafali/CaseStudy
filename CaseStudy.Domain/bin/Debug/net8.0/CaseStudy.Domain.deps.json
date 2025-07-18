@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CaseStudy.Domain/1.0.0": {
+        "dependencies": {
+          "CaseStudy.SharedModels": "1.0.0"
+        },
+        "runtime": {
+          "CaseStudy.Domain.dll": {}
+        }
+      },
+      "CaseStudy.SharedModels/1.0.0": {
+        "runtime": {
+          "CaseStudy.SharedModels.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CaseStudy.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CaseStudy.SharedModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

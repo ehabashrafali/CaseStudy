@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CaseStudy.SharedModels")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22087fccb771aa0619674df6c0c06de9ab7569f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7be89fa7d8fdae773509ac93518fecb1ce47131")]
 [assembly: System.Reflection.AssemblyProductAttribute("CaseStudy.SharedModels")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CaseStudy.SharedModels")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

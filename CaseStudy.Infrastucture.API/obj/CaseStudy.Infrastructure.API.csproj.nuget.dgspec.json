@@ -10,16 +10,14 @@
         "projectUniqueName": "D:\\CaseStudy\\CaseStudy.Application.Commands\\CaseStudy.Application.Commands.csproj",
         "projectName": "CaseStudy.Application.Commands",
         "projectPath": "D:\\CaseStudy\\CaseStudy.Application.Commands\\CaseStudy.Application.Commands.csproj",
-        "packagesPath": "C:\\Users\\khali\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\eaali\\.nuget\\packages\\",
         "outputPath": "D:\\CaseStudy\\CaseStudy.Application.Commands\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\khali\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Users\\eaali\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,8 +26,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/DMA/_packaging/EFG.CorePackages/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/_packaging/EFG.CorePackages-STG%40Local/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/acf2d01e-1415-4efa-bfcf-b647604cfcf7/_packaging/AMSCore%40Local/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/acf2d01e-1415-4efa-bfcf-b647604cfcf7/_packaging/DCA%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -85,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -95,16 +96,14 @@
         "projectUniqueName": "D:\\CaseStudy\\CaseStudy.Application.Queries\\CaseStudy.Application.Queries.csproj",
         "projectName": "CaseStudy.Application.Queries",
         "projectPath": "D:\\CaseStudy\\CaseStudy.Application.Queries\\CaseStudy.Application.Queries.csproj",
-        "packagesPath": "C:\\Users\\khali\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\eaali\\.nuget\\packages\\",
         "outputPath": "D:\\CaseStudy\\CaseStudy.Application.Queries\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\khali\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Users\\eaali\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,8 +112,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/DMA/_packaging/EFG.CorePackages/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/_packaging/EFG.CorePackages-STG%40Local/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/acf2d01e-1415-4efa-bfcf-b647604cfcf7/_packaging/AMSCore%40Local/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/acf2d01e-1415-4efa-bfcf-b647604cfcf7/_packaging/DCA%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -163,7 +165,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -173,16 +175,14 @@
         "projectUniqueName": "D:\\CaseStudy\\CaseStudy.Domain\\CaseStudy.Domain.csproj",
         "projectName": "CaseStudy.Domain",
         "projectPath": "D:\\CaseStudy\\CaseStudy.Domain\\CaseStudy.Domain.csproj",
-        "packagesPath": "C:\\Users\\khali\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\eaali\\.nuget\\packages\\",
         "outputPath": "D:\\CaseStudy\\CaseStudy.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\khali\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Users\\eaali\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -191,8 +191,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/DMA/_packaging/EFG.CorePackages/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/_packaging/EFG.CorePackages-STG%40Local/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/acf2d01e-1415-4efa-bfcf-b647604cfcf7/_packaging/AMSCore%40Local/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/acf2d01e-1415-4efa-bfcf-b647604cfcf7/_packaging/DCA%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -235,7 +238,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -245,16 +248,14 @@
         "projectUniqueName": "D:\\CaseStudy\\CaseStudy.Infrastucture.API\\CaseStudy.Infrastructure.API.csproj",
         "projectName": "CaseStudy.Infrastructure.API",
         "projectPath": "D:\\CaseStudy\\CaseStudy.Infrastucture.API\\CaseStudy.Infrastructure.API.csproj",
-        "packagesPath": "C:\\Users\\khali\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\eaali\\.nuget\\packages\\",
         "outputPath": "D:\\CaseStudy\\CaseStudy.Infrastucture.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\khali\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Users\\eaali\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -263,8 +264,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/DMA/_packaging/EFG.CorePackages/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/_packaging/EFG.CorePackages-STG%40Local/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/acf2d01e-1415-4efa-bfcf-b647604cfcf7/_packaging/AMSCore%40Local/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/acf2d01e-1415-4efa-bfcf-b647604cfcf7/_packaging/DCA%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -320,7 +324,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -330,16 +334,14 @@
         "projectUniqueName": "D:\\CaseStudy\\CaseStudy.SharedModels\\CaseStudy.SharedModels.csproj",
         "projectName": "CaseStudy.SharedModels",
         "projectPath": "D:\\CaseStudy\\CaseStudy.SharedModels\\CaseStudy.SharedModels.csproj",
-        "packagesPath": "C:\\Users\\khali\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\eaali\\.nuget\\packages\\",
         "outputPath": "D:\\CaseStudy\\CaseStudy.SharedModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\khali\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Users\\eaali\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -348,8 +350,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/DMA/_packaging/EFG.CorePackages/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/_packaging/EFG.CorePackages-STG%40Local/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/acf2d01e-1415-4efa-bfcf-b647604cfcf7/_packaging/AMSCore%40Local/nuget/v3/index.json": {},
+          "https://azuredevops.efg-hermes.com/tfs/DefaultCollection/acf2d01e-1415-4efa-bfcf-b647604cfcf7/_packaging/DCA%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -388,7 +393,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

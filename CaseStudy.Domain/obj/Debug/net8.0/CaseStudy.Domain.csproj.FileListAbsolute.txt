@@ -1,0 +1,16 @@
+D:\CaseStudy\CaseStudy.Domain\bin\Debug\net8.0\CaseStudy.Domain.deps.json
+D:\CaseStudy\CaseStudy.Domain\bin\Debug\net8.0\CaseStudy.Domain.dll
+D:\CaseStudy\CaseStudy.Domain\bin\Debug\net8.0\CaseStudy.Domain.pdb
+D:\CaseStudy\CaseStudy.Domain\bin\Debug\net8.0\CaseStudy.SharedModels.dll
+D:\CaseStudy\CaseStudy.Domain\bin\Debug\net8.0\CaseStudy.SharedModels.pdb
+D:\CaseStudy\CaseStudy.Domain\obj\Debug\net8.0\CaseStudy.Domain.csproj.AssemblyReference.cache
+D:\CaseStudy\CaseStudy.Domain\obj\Debug\net8.0\CaseStudy.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\CaseStudy\CaseStudy.Domain\obj\Debug\net8.0\CaseStudy.Domain.AssemblyInfoInputs.cache
+D:\CaseStudy\CaseStudy.Domain\obj\Debug\net8.0\CaseStudy.Domain.AssemblyInfo.cs
+D:\CaseStudy\CaseStudy.Domain\obj\Debug\net8.0\CaseStudy.Domain.csproj.CoreCompileInputs.cache
+D:\CaseStudy\CaseStudy.Domain\obj\Debug\net8.0\CaseStudy.Domain.sourcelink.json
+D:\CaseStudy\CaseStudy.Domain\obj\Debug\net8.0\CaseStud.B2442077.Up2Date
+D:\CaseStudy\CaseStudy.Domain\obj\Debug\net8.0\CaseStudy.Domain.dll
+D:\CaseStudy\CaseStudy.Domain\obj\Debug\net8.0\refint\CaseStudy.Domain.dll
+D:\CaseStudy\CaseStudy.Domain\obj\Debug\net8.0\CaseStudy.Domain.pdb
+D:\CaseStudy\CaseStudy.Domain\obj\Debug\net8.0\ref\CaseStudy.Domain.dll
