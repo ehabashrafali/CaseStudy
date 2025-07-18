@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CaseStudy.Infrastructure.API.Controllers
 {
     [ApiController]
-    [Route("api/employees/")]
+    [Route("api/employees")]
     public class EmployeeController(ISender sender) : ControllerBase
     {
         [HttpPost]
@@ -27,7 +27,7 @@ namespace CaseStudy.Infrastructure.API.Controllers
         }
 
 
-        [HttpGet("{id}")]
+        [HttpGet("delete/{id}")]
         public async Task<IActionResult> DeleteEmployee(Guid id, [FromQuery] Guid version, CancellationToken cancellationToken)
         {
             var command = new DeleteEmployeeCommand(id, version);

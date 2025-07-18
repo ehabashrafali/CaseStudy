@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CaseStudy.Application.Commands\CaseStudy.Application.Commands.csproj" />
     <ProjectReference Include="..\CaseStudy.Infrastructure.DataBase\CaseStudy.Infrastructure.DataBase.csproj" />
+    <ProjectReference Include="..\CaseStudy.Infrastucture.API\CaseStudy.Infrastructure.API.csproj" />
   </ItemGroup>
 
 </Project>
