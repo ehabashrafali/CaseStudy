@@ -15,10 +15,18 @@
         public DateOnly HireDate { get; set; }
         public EmployeeStatus Status { get; set; }
         public Department Department { get; set; }
-        private bool IsDeleted { get; set; }
+
+        private readonly List<Logs.Logs> _logs = [];
+        public IReadOnlyCollection<Logs.Logs> Logs => _logs;
+        public bool IsDeleted { get; set; }
         public void SetAsDeleted()
         {
             IsDeleted = true;
+        }
+
+        public void AddLogs(Logs.Logs logs)
+        {
+            _logs.Add(logs);
         }
     }
 }

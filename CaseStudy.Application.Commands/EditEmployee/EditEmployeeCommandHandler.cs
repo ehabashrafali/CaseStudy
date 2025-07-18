@@ -1,4 +1,5 @@
 ﻿using CaseStudy.Domain.Exceptions;
+using CaseStudy.Domain.Logs;
 using CaseStudy.Domain.Repositories;
 using MediatR;
 
@@ -18,6 +19,10 @@ namespace CaseStudy.Application.Commands.EditEmployee
             employee.Email = request.Email;
             employee.HireDate = request.HireDate;
             employee.Status = request.Status;
+
+            var logs = new Logs(null, DateTime.UtcNow, SharedModels.ActionType.update);
+            employee.AddLogs(logs);
+
             await repository.UpdateAsync(employee);
 
             return employee.Id;

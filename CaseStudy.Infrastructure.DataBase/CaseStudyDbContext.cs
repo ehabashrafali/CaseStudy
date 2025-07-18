@@ -9,7 +9,7 @@ namespace CaseStudy.Infrastructure.DataBase
         public DbSet<Employee> Employees { get; set; }
 
         public DbSet<Department> Departments { get; set; }
-
+        public DbSet<Domain.Logs.Logs> Logs { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

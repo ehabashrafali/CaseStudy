@@ -1,4 +1,5 @@
 ﻿using CaseStudy.Domain.Employee;
+using CaseStudy.Domain.Logs;
 using CaseStudy.Domain.Repositories;
 using MediatR;
 
@@ -16,6 +17,9 @@ public class CreateEmployeeCommandHandler(IEmployeeCommandRepository _repository
             HireDate = request.HireDate,
             Status = request.Status
         };
+        
+        var logs = new Logs(DateTime.UtcNow, null, SharedModels.ActionType.Create);
+        employee.AddLogs(logs);
         await _repository.AddAsync(employee);
         return employee.Id;
     }

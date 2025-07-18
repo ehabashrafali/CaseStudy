@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CaseStudy.Infrastructure.API.Controllers;
 
 [ApiController]
-[Route("api/departments")]
+[Route("api/departments/")]
 
 public class DepartmentController(ISender sender) : ControllerBase
 {

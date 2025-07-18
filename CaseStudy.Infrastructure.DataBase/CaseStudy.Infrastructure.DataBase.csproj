@@ -24,4 +24,8 @@
     <ProjectReference Include="..\CaseStudy.Domain\CaseStudy.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Logs\Repositories\" />
+  </ItemGroup>
+
 </Project>

@@ -11,18 +11,6 @@ namespace CaseStudy.Infrastructure.DataBase.Employees.Repositories
             await _context.Employees.AddAsync(employee);
             await _context.SaveChangesAsync();
         }
-
-        public async Task DeleteAsync(Guid employeeId)
-        {
-            var employee = await _context.Employees.FindAsync(employeeId);
-            if (employee is not null)
-            {
-                employee.SetAsDeleted();
-                _context.Employees.Update(employee);
-                await _context.SaveChangesAsync();
-            }
-        }
-
         public async Task<Employee>? GetEmployeeById(Guid employeeId)
             => await _context.Employees.FirstOrDefaultAsync(e => e.Id == employeeId);
 
@@ -32,6 +20,5 @@ namespace CaseStudy.Infrastructure.DataBase.Employees.Repositories
             _context.Employees.Update(employee);
             await _context.SaveChangesAsync();
         }
-      
     }
 }

@@ -1,5 +1,6 @@
 ﻿using CaseStudy.Application.Commands.CreateEmployee;
 using CaseStudy.Domain.Exceptions;
+using CaseStudy.Domain.Logs;
 using CaseStudy.Domain.Repositories;
 using MediatR;
 
@@ -17,7 +18,12 @@ namespace CaseStudy.Application.Commands.DeleteEmployee
             if (employee.Version != request.Version)
                     throw new ConflictException("The employee has been modified.");
 
-            await _repository.DeleteAsync(request.EmployeeId);
+            employee.SetAsDeleted();
+
+            var logs =  new Logs(null, DateTime.UtcNow, SharedModels.ActionType.delete);
+            employee.AddLogs(logs);
+
+            await _repository.UpdateAsync(employee);
             return Unit.Value;
 
         }
