@@ -1,5 +1,11 @@
 
+using CaseStudy.Application.Commands.CreateEmployee;
+using CaseStudy.Application.Queries.Repositories;
+using CaseStudy.Domain.Repositories;
 using CaseStudy.Infrastructure.DataBase;
+using CaseStudy.Infrastructure.DataBase.Departments.Repositories;
+using CaseStudy.Infrastructure.DataBase.Employees.Repositories;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging.Debug;
 
@@ -13,7 +19,7 @@ namespace CaseStudy.Host
 
 
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-           
+
             builder.Services.AddDbContext<CaseStudyDbContext>(options =>
             {
                 var serviceProvider = builder.Services.BuildServiceProvider();
@@ -21,6 +27,13 @@ namespace CaseStudy.Host
                 loggerFactory.AddProvider(new DebugLoggerProvider());
                 options.UseSqlServer(connectionString);
             });
+
+            builder.Services.AddScoped<IDepartmentCommandRepository, DepartmentCommandsRepository>();
+            builder.Services.AddScoped<IEmployeeCommandRepository, EmployeeCommandRepository>();
+            builder.Services.AddScoped<IDepartmentQueriesRepository, DepartmentQueriesRepository>();
+            builder.Services.AddScoped<IEmployeeQueriesRepository, EmployeeQueriesRepository>();
+
+            builder.Services.AddTransient<IPipelineBehavior<CreateEmployeeCommand, Guid>, CreateEmployeeCommandPreparerBehavior>();
 
             // Add services to the container.
             builder.Services.AddControllers();

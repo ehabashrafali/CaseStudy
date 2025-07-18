@@ -1,12 +1,6 @@
-﻿using CaseStudy.Application.Commands.CreateEmployee;
-using CaseStudy.Domain.Exceptions;
+﻿using CaseStudy.Domain.Exceptions;
 using CaseStudy.Domain.Repositories;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CaseStudy.Application.Commands.EditEmployee
 {
@@ -29,7 +23,6 @@ namespace CaseStudy.Application.Commands.EditEmployee
             return employee.Id;
         }
 
-        
+
     }
-}
 }

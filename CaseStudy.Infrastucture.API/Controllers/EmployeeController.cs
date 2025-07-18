@@ -2,6 +2,7 @@
 using CaseStudy.Application.Commands.DeleteEmployee;
 using CaseStudy.Application.Commands.EditEmployee;
 using CaseStudy.Application.Queries.GetEmployee;
+using CaseStudy.Application.Queries.GetEmployeesByHiringDate;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

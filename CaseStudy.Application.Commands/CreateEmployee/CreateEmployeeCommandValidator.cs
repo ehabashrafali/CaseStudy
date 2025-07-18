@@ -9,7 +9,6 @@ namespace CaseStudy.Application.Commands.CreateEmployee
             RuleFor(x => x.Name).NotEmpty().MaximumLength(100);
             RuleFor(x => x.Email).NotEmpty().EmailAddress();
             RuleFor(x => x.DepartmentId).NotEmpty();
-            RuleFor(x => x.HireDate).LessThanOrEqualTo(DateTime.UtcNow);
             RuleFor(x => x.Status).Must(s => s == EmployeeStatus.Active || s == EmployeeStatus.Inactive).
                 WithMessage("Status must be Active or Inactive.");
         }

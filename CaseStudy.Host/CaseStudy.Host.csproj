@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CaseStudy.Application.Commands\CaseStudy.Application.Commands.csproj" />
     <ProjectReference Include="..\CaseStudy.Infrastructure.DataBase\CaseStudy.Infrastructure.DataBase.csproj" />
   </ItemGroup>
 
