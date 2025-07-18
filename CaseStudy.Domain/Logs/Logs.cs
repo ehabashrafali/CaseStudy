@@ -4,6 +4,8 @@ namespace CaseStudy.Domain.Logs
 {
     public class Logs
     {
+        public Guid Id { get; set; }
+        public Guid EmployeeId { get; set; }
         public DateTime? CreatedOn { get; set; }
         public DateTime? UpdatedOn { get; set; }
         public ActionType ActionType { get; set; }

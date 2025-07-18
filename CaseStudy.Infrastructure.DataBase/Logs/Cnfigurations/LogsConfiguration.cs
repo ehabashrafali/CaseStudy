@@ -7,21 +7,22 @@ namespace CaseStudy.Infrastructure.DataBase.Logs.Cnfigurations
     {
         public void Configure(EntityTypeBuilder<Domain.Logs.Logs> builder)
         {
+            builder.HasKey(e => e.Id);
 
-            builder.HasKey(l => new { l.Employee.Id, l.CreatedOn });
+            builder.Property(l => l.EmployeeId)
+                   .IsRequired();
 
             builder.Property(l => l.CreatedOn)
                    .IsRequired();
-
-            builder.Property(l => l.UpdatedOn);
 
             builder.Property(l => l.ActionType)
                    .IsRequired();
 
             builder.HasOne(l => l.Employee)
                    .WithMany(e => e.Logs)
-                   .IsRequired()
+                   .HasForeignKey(l => l.EmployeeId)
                    .OnDelete(DeleteBehavior.Cascade);
         }
+
     }
 }
