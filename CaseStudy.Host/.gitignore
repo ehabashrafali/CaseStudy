@@ -1,97 +1,104 @@
-## Build results
+# Visual Studio files
+.vscode/
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Compiled files
 bin/
 obj/
-out/
-TestResults/
-[Ll]og/
+
+# NuGet packages
+packages/
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Cache and logs
+*.log
+*.cache
+
+# Debug and release files
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.user
+*.aps
+*.clw
+*.dbg
+*.dbp
+*.dep
+*.dsm
+*.dsp
+*.dsw
+*.ilk
+*.opt
+*.pdb
+*.plg
+*.plk
+*.sbr
+*.scc
+*.sdf
+*.suo
+*.swp
+*.tlh
+*.tli
+*.tlp
+*.pl
+*.class
+*.psess
+*.vsp
+*.vspx
+*.svdlog
+*.suo
+*.user
+*.orig
+*.vsidx
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Documentation files
+DocumentDb
+
+# Entity Framework Core
+DatabaseGeneratedOption.None
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
 
 ## Ignore Visual Studio build folders
 **/bin/
 **/obj/
 **/Debug/
 **/Release/
-
-## User-specific files
-*.user
-*.userosscache
-*.suo
-*.sln.docstates
-
-## Visual Studio files
-.vs/
-.vscode/
-*.code-workspace
-
-## Rider files
-.idea/
-
-## ASP.NET specific
-wwwroot/*.map
-wwwroot/dist/
-wwwroot/node_modules/
-
-## Package management
-*.nupkg
-*.snupkg
-.nuget/
-packages/
-*.vsix
-
-## Entity Framework
-Migrations/
-
-## Publish results
-publish/
-AppPackages/
-*.appxupload
-
-## Logs
-*.log
-
-## Temporary files
-*.tmp
-*.bak
-*.swp
-*~$
-
-## Database files
-*.mdf
-*.ldf
-
-## Other
-_ReSharper*/
-*.DotSettings.user
-*.dbmdl
-*.sdf
-*.cache
-*.pidb
-
-## Azure Functions
-local.settings.json
-
-## Docker
-**/.dockerignore
-docker-compose.override.yml
-
-## Coverage reports
-coverage/
-*.coverage
-*.coveragexml
-*.testsettings
-*.vsmdi
-
-## JetBrains Rider
-.idea/
-
-## Environment
-.env
-.env.*
-
-## Certificates
-*.pfx
-*.p12
-
-## Other IDEs
-*.ncrunchproject
-*.ncrunchsolution
-*.cachefile
