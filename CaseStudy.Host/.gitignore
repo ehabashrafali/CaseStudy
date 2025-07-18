@@ -5,6 +5,12 @@ out/
 TestResults/
 [Ll]og/
 
+## Ignore Visual Studio build folders
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+
 ## User-specific files
 *.user
 *.userosscache
