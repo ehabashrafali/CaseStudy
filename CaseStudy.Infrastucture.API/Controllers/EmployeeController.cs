@@ -27,7 +27,7 @@ namespace CaseStudy.Infrastructure.API.Controllers
         }
 
 
-        [HttpDelete("{id}")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> DeleteEmployee(Guid id, [FromQuery] Guid version, CancellationToken cancellationToken)
         {
             var command = new DeleteEmployeeCommand(id, version);
@@ -51,7 +51,5 @@ namespace CaseStudy.Infrastructure.API.Controllers
             var result = await sender.Send(new GetEmployeesByHiringDateQuery(fromHiringDate, toHiringDate), cancellationToken);
             return Ok(result);
         }
-
-
     }
 }

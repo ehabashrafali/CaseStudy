@@ -15,6 +15,11 @@
         public DateOnly HireDate { get; set; }
         public EmployeeStatus Status { get; set; }
         public Department Department { get; set; }
+        private bool IsDeleted { get; set; }
+        public void SetAsDeleted()
+        {
+            IsDeleted = true;
+        }
     }
 }
 

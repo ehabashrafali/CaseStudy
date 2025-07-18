@@ -17,7 +17,8 @@ namespace CaseStudy.Infrastructure.DataBase.Employees.Repositories
             var employee = await _context.Employees.FindAsync(employeeId);
             if (employee is not null)
             {
-                _context.Employees.Remove(employee);
+                employee.SetAsDeleted();
+                _context.Employees.Update(employee);
                 await _context.SaveChangesAsync();
             }
         }
