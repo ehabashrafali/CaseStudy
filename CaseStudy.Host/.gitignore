@@ -96,8 +96,9 @@ DatabaseGeneratedOption.None
 *.user
 *.sln.docstates
 
-
-## Ignore Visual Studio build folders
+# Ignore Visual Studio build folders
+bin/
+obj/
 **/bin/
 **/obj/
 **/Debug/
