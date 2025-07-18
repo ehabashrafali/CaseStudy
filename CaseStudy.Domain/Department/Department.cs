@@ -2,7 +2,7 @@
 
 public class Department
 {
-    public Guid Id { get; set; }
+    public Guid Id { get; private set; }
     public string Name { get; set; }
     private readonly List<Employee.Employee> _employees = new();
     public IReadOnlyCollection<Employee.Employee> Employees => _employees;

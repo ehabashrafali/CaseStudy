@@ -9,6 +9,8 @@ namespace CaseStudy.Infrastructure.DataBase.Employees.Configurations
         public void Configure(EntityTypeBuilder<Employee> builder)
         {
             builder.HasKey(e => e.Id);
+            builder.Property(d => d.Id)
+                    .ValueGeneratedOnAdd();
 
             builder.Property(e => e.Name)
                    .IsRequired()

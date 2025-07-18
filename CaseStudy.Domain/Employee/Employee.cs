@@ -7,7 +7,7 @@
 
     public class Employee
     {
-        public Guid Id { get; set; }
+        public Guid Id { get; private set; }
         public string Name { get; set; } = string.Empty;
         [ConcurrencyCheck]
         public Guid Version { get; set; } = Guid.NewGuid();
