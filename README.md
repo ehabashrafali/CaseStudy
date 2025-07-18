@@ -30,12 +30,3 @@
 - **CaseStudy.Infrastructure.DataBase**: Entity Framework Core context, repositories, and database logic.
 - **CaseStudy.SharedModels**: Shared DTOs and models.
 
----
-
-## Filters, Sorting, and Logging
-
-- **Filters & Sorting**:  
-  Implemented in the query repositories (see `CaseStudy.Application.Queries.Repositories`). Filtering and sorting logic is typically handled in repository methods using LINQ and MediatR queries.
-
-- **Logging**:  
-  Logging is configured using `DebugLoggerProvider` in `Program.cs`:
