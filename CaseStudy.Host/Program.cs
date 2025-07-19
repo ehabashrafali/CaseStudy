@@ -28,6 +28,7 @@ builder.Services.AddScoped<IEmployeeQueriesRepository, EmployeeQueriesRepository
 builder.Services.AddMediatR(cfg =>
 {
     cfg.RegisterServicesFromAssemblyContaining<CreateEmployeeCommand>();
+    cfg.RegisterServicesFromAssembly(typeof(GetDepartmentQuery).Assembly);
 });
 
 builder.Services
