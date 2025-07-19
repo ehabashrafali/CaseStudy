@@ -1,0 +1,16 @@
+D:\CaseStudy\CaseStudy.Application.Queries\bin\Debug\net8.0\CaseStudy.Application.Queries.deps.json
+D:\CaseStudy\CaseStudy.Application.Queries\bin\Debug\net8.0\CaseStudy.Application.Queries.dll
+D:\CaseStudy\CaseStudy.Application.Queries\bin\Debug\net8.0\CaseStudy.Application.Queries.pdb
+D:\CaseStudy\CaseStudy.Application.Queries\bin\Debug\net8.0\CaseStudy.SharedModels.dll
+D:\CaseStudy\CaseStudy.Application.Queries\bin\Debug\net8.0\CaseStudy.SharedModels.pdb
+D:\CaseStudy\CaseStudy.Application.Queries\obj\Debug\net8.0\CaseStudy.Application.Queries.csproj.AssemblyReference.cache
+D:\CaseStudy\CaseStudy.Application.Queries\obj\Debug\net8.0\CaseStudy.Application.Queries.GeneratedMSBuildEditorConfig.editorconfig
+D:\CaseStudy\CaseStudy.Application.Queries\obj\Debug\net8.0\CaseStudy.Application.Queries.AssemblyInfoInputs.cache
+D:\CaseStudy\CaseStudy.Application.Queries\obj\Debug\net8.0\CaseStudy.Application.Queries.AssemblyInfo.cs
+D:\CaseStudy\CaseStudy.Application.Queries\obj\Debug\net8.0\CaseStudy.Application.Queries.csproj.CoreCompileInputs.cache
+D:\CaseStudy\CaseStudy.Application.Queries\obj\Debug\net8.0\CaseStudy.Application.Queries.sourcelink.json
+D:\CaseStudy\CaseStudy.Application.Queries\obj\Debug\net8.0\CaseStud.1DA7DEA3.Up2Date
+D:\CaseStudy\CaseStudy.Application.Queries\obj\Debug\net8.0\CaseStudy.Application.Queries.dll
+D:\CaseStudy\CaseStudy.Application.Queries\obj\Debug\net8.0\refint\CaseStudy.Application.Queries.dll
+D:\CaseStudy\CaseStudy.Application.Queries\obj\Debug\net8.0\CaseStudy.Application.Queries.pdb
+D:\CaseStudy\CaseStudy.Application.Queries\obj\Debug\net8.0\ref\CaseStudy.Application.Queries.dll
